@@ -1,0 +1,22 @@
+# 1. Stage: Build the application
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+
+# 2. Stage: Restore and build the application
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+COPY ["OrganicFood_MiniProject/OrganicFood_MiniProject.csproj", "OrganicFood_MiniProject/"]
+RUN dotnet restore "OrganicFood_MiniProject/OrganicFood_MiniProject.csproj"
+
+# Copy the rest of the application files
+COPY OrganicFood_MiniProject/. OrganicFood_MiniProject/
+WORKDIR "/src/OrganicFood_MiniProject"
+RUN dotnet publish -c Release -o /app/publish
+
+# 3. Stage: Create the final image
+FROM base AS final
+WORKDIR /app
+COPY --from=build /app/publish .
+ENTRYPOINT ["dotnet", "OrganicFood_MiniProject.dll"]
