@@ -6,9 +6,9 @@ WORKDIR /src
 COPY ["OrganicFood_MiniProject/OrganicFood_MiniProject.csproj", "OrganicFood_MiniProject/"]
 RUN dotnet restore "OrganicFood_MiniProject/OrganicFood_MiniProject.csproj"
 
-# Copy the entire project and publish it
-COPY OrganicFood_MiniProject/. OrganicFood_MiniProject/
-WORKDIR "/src/OrganicFood_MiniProject"
+# Copy the entire project and build it
+COPY OrganicFood_MiniProject/. ./OrganicFood_MiniProject/
+WORKDIR /src/OrganicFood_MiniProject
 RUN dotnet publish -c Release -o /app/publish
 
 # 2. Stage: Run the application
@@ -19,10 +19,10 @@ WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-# Environment variables to bind the application to all IPs
+# Environment variable for Kestrel to listen on all network interfaces
 ENV ASPNETCORE_URLS=http://+:80
 
-# Copy published files from build stage
+# Copy the build output from the previous stage
 COPY --from=build /app/publish .
 
 # Run the application
