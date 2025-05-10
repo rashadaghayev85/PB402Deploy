@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5ABEFEB7-95EA-4F41-8C79-11F305629F47}|OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj|C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\organicfood_miniproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{5ABEFEB7-95EA-4F41-8C79-11F305629F47}|OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb402deploy\\organicfood_miniproject\\organicfood_miniproject\\organicfood_miniproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5ABEFEB7-95EA-4F41-8C79-11F305629F47}|OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj|solutionrelative:organicfood_miniproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ABEFEB7-95EA-4F41-8C79-11F305629F47}|OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj|C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\organicfood_miniproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ABEFEB7-95EA-4F41-8C79-11F305629F47}|OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj|solutionrelative:organicfood_miniproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\Migrations\\20250510131932_Created.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OrganicFood_MiniProject\\Migrations\\20250510131932_Created.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5ABEFEB7-95EA-4F41-8C79-11F305629F47}|OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj|C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\organicfood_miniproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5ABEFEB7-95EA-4F41-8C79-11F305629F47}|OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj|solutionrelative:organicfood_miniproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\Migrations\\20250510101834_CreatedTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OrganicFood_MiniProject\\Migrations\\20250510101834_CreatedTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ABEFEB7-95EA-4F41-8C79-11F305629F47}|OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb402deploy\\organicfood_miniproject\\organicfood_miniproject\\organicfood_miniproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ABEFEB7-95EA-4F41-8C79-11F305629F47}|OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj|solutionrelative:organicfood_miniproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\Migrations\\20250510131552_Created.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OrganicFood_MiniProject\\Migrations\\20250510131552_Created.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5ABEFEB7-95EA-4F41-8C79-11F305629F47}|OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj|C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\organicfood_miniproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,25 +43,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "20250510101834_CreatedTables.cs",
-              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\Migrations\\20250510101834_CreatedTables.cs",
-              "RelativeDocumentMoniker": "OrganicFood_MiniProject\\Migrations\\20250510101834_CreatedTables.cs",
-              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\Migrations\\20250510101834_CreatedTables.cs",
-              "RelativeToolTip": "OrganicFood_MiniProject\\Migrations\\20250510101834_CreatedTables.cs",
+              "Title": "20250510131932_Created.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\Migrations\\20250510131932_Created.cs",
+              "RelativeDocumentMoniker": "OrganicFood_MiniProject\\Migrations\\20250510131932_Created.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\Migrations\\20250510131932_Created.cs",
+              "RelativeToolTip": "OrganicFood_MiniProject\\Migrations\\20250510131932_Created.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T10:18:34.434Z",
+              "WhenOpened": "2025-05-10T13:19:33.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "20250510131552_Created.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\Migrations\\20250510131552_Created.cs",
+              "RelativeDocumentMoniker": "OrganicFood_MiniProject\\Migrations\\20250510131552_Created.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\Migrations\\20250510131552_Created.cs",
+              "RelativeToolTip": "OrganicFood_MiniProject\\Migrations\\20250510131552_Created.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:15:52.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\Program.cs",
               "RelativeDocumentMoniker": "OrganicFood_MiniProject\\Program.cs",
               "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\Program.cs",
               "RelativeToolTip": "OrganicFood_MiniProject\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAAoAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T10:15:52.01Z",
               "EditorCaption": ""
@@ -70,14 +87,14 @@
               "RelativeDocumentMoniker": "OrganicFood_MiniProject\\appsettings.json",
               "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\appsettings.json",
               "RelativeToolTip": "OrganicFood_MiniProject\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABLAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAADiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-10T09:39:29.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\appsettings.Development.json",
               "RelativeDocumentMoniker": "OrganicFood_MiniProject\\appsettings.Development.json",
@@ -90,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "OrganicFood_MiniProject\\Controllers\\AccountController.cs",

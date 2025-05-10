@@ -7,12 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
-var conString = builder.Configuration.GetConnectionString("Default") ??
-     throw new InvalidOperationException("Connection string 'Default'" +
-    " not found.");
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(conString));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("Default")));
+
 
 builder.Services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>()
                                                           .AddDefaultTokenProviders();
