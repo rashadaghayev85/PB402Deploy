@@ -1,0 +1,13 @@
+﻿@model BlogCategoryCreateVM
+<div class="container mt-5">
+	<form method="post" asp-action="Create" enctype="multipart/form-data">
+		<div>
+			<label for="name">Blog Category Name</label>
+			<input type="text" id="name" asp-for="Name" />
+			<span asp-validation-for="Name" class="text-danger d-block mb-2"></span>
+		</div>
+
+		<button type="submit" class="btn btn-success">Submit</button>
+		<a asp-action="Index" class="btn btn-danger">Cancel</a>
+	</form>
+</div>

@@ -1,0 +1,67 @@
+﻿@model IEnumerable<BlogDetailVM>
+<div class="container mt-5">
+    <a asp-action="Create" class="btn btn-success">Create</a>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        Blog Title
+                    </th>
+                    <th>
+                        Blog Description
+                    </th>
+                    <th>
+                        Blog Author
+                    </th>
+                    <th>
+                        Created Date
+                    </th>
+                    <th>
+                        Blog Category
+                    </th>
+                    <th>
+                        Product Images
+                    </th>
+                    <th>
+                        Options
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @item.Title
+                        </td>
+                        <td>
+                            @item.Description
+                        </td>
+                        <td>
+                            @item.Author
+                        </td>
+                        <td>
+                            @item.Date
+                        </td>
+                        <td>
+                            @item.CategoryName
+                        </td>
+                        <td>
+                            <img src="~/assets/images/our-blog/@item.Image" style="width:100px;height:90px;" />
+                        </td>
+                        <td style="display: flex;gap:10px;">
+                            <a asp-action="Detail" asp-route-id=@item.Id class="btn btn-info">Detail</a>
+                            <a asp-action="Edit" asp-route-id=@item.Id class="btn btn-primary">Edit</a>
+                            <form method="post" asp-action="Delete" asp-route-id="@item.Id">
+                                <button type="submit" class="btn btn-danger">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>
+

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<SettingDetailVM>
+<div class="container mt-5">
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Value
+                    </th>
+                    <th>
+                        Options
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                   @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @item.Key
+                        </td>
+                        <td>
+                            @item.Value
+                        </td>
+                        <td style="display: flex;gap:10px;">
+                            <a asp-action="Edit" asp-route-id=@item.Id class="btn btn-primary">Edit</a>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>
+

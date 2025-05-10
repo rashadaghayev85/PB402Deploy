@@ -1,0 +1,28 @@
+﻿@model SliderCreateVM
+<div class="container mt-5">
+	<form method="post" asp-action="Create" enctype="multipart/form-data">
+		<div>
+			<label for="name">Slider Product Name</label>
+			<input type="text" id="name" asp-for="Product" />
+			<span asp-validation-for="Product" class="text-danger d-block mb-2"></span>
+		</div>
+		<div>
+			<label>Slider Title</label>
+			<input type="text" id="name" asp-for="Title" />
+			<span asp-validation-for="Title" class="text-danger d-block mb-2"></span>
+		</div>
+		<div>
+			<label>Slider Description</label>
+			<input type="text" id="name" asp-for="Description" />
+			<span asp-validation-for="Description" class="text-danger d-block mb-2"></span>
+		</div>
+
+		<div class="form-group">
+			<label>Slider Image</label>
+			<input id="name" asp-for="Image" />
+			<span asp-validation-for="Image" class="text-danger d-block mb-2"></span>
+		</div>
+		<button type="submit" class="btn btn-success">Submit</button>
+		<a asp-action="Index" class="btn btn-danger">Cancel</a>
+	</form>
+</div>

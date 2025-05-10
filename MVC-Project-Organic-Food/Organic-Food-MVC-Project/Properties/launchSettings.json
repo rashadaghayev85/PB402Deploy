@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Organic-Food-MVC-Project": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:62859;http://localhost:62860"
+    }
+  }
+}

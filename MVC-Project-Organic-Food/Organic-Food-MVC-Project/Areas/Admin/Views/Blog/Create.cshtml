@@ -1,0 +1,34 @@
+﻿@model BlogCreateVM
+<div class="container mt-5">
+	<form method="post" asp-action="Create" enctype="multipart/form-data">
+		<div>
+			<label for="name">Blog Title</label>
+			<input type="text" id="name" asp-for="Title" />
+			<span asp-validation-for="Title" class="text-danger d-block mb-2"></span>
+		</div>
+		<div>
+			<label>Blog Description</label>
+			<input type="text" id="name" asp-for="Description" />
+			<span asp-validation-for="Description" class="text-danger d-block mb-2"></span>
+		</div>
+		<div>
+			<label>Blog Author</label>
+			<input type="text" id="name" asp-for="Author" />
+			<span asp-validation-for="Author" class="text-danger d-block mb-2"></span>
+		</div>
+		<div>
+			<label>Blog Category</label>
+			<select asp-for="CategoryId" asp-items="@ViewBag.BlogCategories">
+				<option>Select one option</option>
+			</select>
+			<span asp-validation-for="CategoryId" class="text-danger d-block mb-2"></span>
+		</div>
+		<div class="form-group">
+			<label>Product Images</label>
+			<input type="file" id="name" asp-for="Image" />
+			<span asp-validation-for="Image" class="text-danger d-block mb-2"></span>
+		</div>
+		<button type="submit" class="btn btn-success">Submit</button>
+		<a asp-action="Index" class="btn btn-danger">Cancel</a>
+	</form>
+</div>

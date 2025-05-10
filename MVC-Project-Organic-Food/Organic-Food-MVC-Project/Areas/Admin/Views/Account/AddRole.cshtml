@@ -1,0 +1,14 @@
+﻿@model AddRoleVM
+<div class="container mt-5">
+	<form method="post" asp-action="AddRole">
+		<div>
+			<label>Select role to add user:</label>
+			<select asp-for="Role" asp-items="@ViewBag.Roles">
+				<option>Select one option</option>
+			</select>
+			<span asp-validation-for="Role" class="text-danger d-block mb-2"></span>
+		</div>
+		<button type="submit" class="btn btn-success">Submit</button>
+		<a asp-action="Index" class="btn btn-danger">Cancel</a>
+	</form>
+</div>

@@ -1,0 +1,61 @@
+﻿@model IEnumerable<ProductDetailVM>
+<div class="container mt-5">
+    <a asp-action="Create" class="btn btn-success">Create</a>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        Product Name
+                    </th>
+                    <th>
+                        Product Description
+                    </th>
+                    <th>
+                        Product Price
+                    </th>
+                    <th>
+                        Category Name
+                    </th>
+                    <th>
+                        Product Images
+                    </th>
+                    <th>
+                        Options
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @item.Name
+                        </td>
+                         <td>
+                            @item.Description
+                        </td>
+                        <td>
+                            @item.Price
+                        </td>
+                        <td>
+                            @item.CategoryName
+                        </td>
+                        <td>
+                                <img src="~/assets/images/products/@item.Images.FirstOrDefault(m=>m.IsMain==true).Name" style="width:100px;height:90px;" />
+                        </td>
+                        <td style="display: flex;gap:10px;">
+                            <a asp-action="Detail" asp-route-id=@item.Id class="btn btn-info">Detail</a>
+                             <a asp-action="Edit" asp-route-id=@item.Id class="btn btn-primary">Edit</a>
+                            <form method="post" asp-action="Delete" asp-route-id="@item.Id">
+                                <button type="submit" class="btn btn-danger">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>
+

@@ -1,0 +1,14 @@
+﻿@model SettingEditVM
+<div class="container mt-5">
+	<div class="container mb-3 mt-3 product-images">
+	</div>
+	<form method="post" asp-action="Edit" enctype="multipart/form-data">
+		<div class="form-group">
+			<label>Value for @Model.Key :</label>
+			<input id="name" asp-for="@Model.Value" />
+			<span asp-validation-for="@Model.Value" class="text-danger d-block mb-2"></span>
+		</div>
+		<button type="submit" class="btn btn-success">Submit</button>
+		<a asp-action="Index" class="btn btn-danger">Cancel</a>
+	</form>
+</div>

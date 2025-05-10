@@ -1,0 +1,40 @@
+﻿@model AboutDetailVM
+<div class="container mt-5">
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        Title
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                    <th>
+                        Image
+                    </th>
+                    <th>
+                        Options
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>
+                            @Model.Title
+                        </td>
+                        <td>
+                            @Model.Description
+                        </td>
+                        <td>
+                            <img src="~/assets/images/home-03/@Model.Image" style="width:100px;height:90px;" />
+                        </td>
+                        <td style="display: flex;gap:10px;">
+                            <a asp-action="Edit" asp-route-id=@Model.Id class="btn btn-primary">Edit</a>
+                        </td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
