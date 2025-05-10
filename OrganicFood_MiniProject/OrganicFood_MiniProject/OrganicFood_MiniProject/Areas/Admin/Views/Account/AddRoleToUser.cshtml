@@ -1,0 +1,13 @@
+﻿@model AddRoleToUserDto
+
+<form method="post" asp-action="AddRoleToUser">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <input type="hidden" asp-for="UserId" />
+
+    <label for="RoleId">Select Role:</label>
+    <select class="form-control" id="RoleId" asp-for="RoleId" asp-items="Model.Roles">
+        <option value="">Select a role</option>
+    </select>
+
+    <button type="submit" class="btn btn-primary mt-2">Submit</button>
+</form>

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gulay\\Desktop\\MiniProjects\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5ABEFEB7-95EA-4F41-8C79-11F305629F47}|OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj|c:\\users\\gulay\\desktop\\miniprojects\\organicfood_miniproject\\organicfood_miniproject\\organicfood_miniproject\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ABEFEB7-95EA-4F41-8C79-11F305629F47}|OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj|solutionrelative:organicfood_miniproject\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\gulay\\Desktop\\MiniProjects\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "OrganicFood_MiniProject\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\gulay\\Desktop\\MiniProjects\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "OrganicFood_MiniProject\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAASwIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T00:15:36.172Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

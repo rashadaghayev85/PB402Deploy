@@ -1,0 +1,48 @@
+﻿@model IEnumerable<PromotionVM>
+
+<div class="container">
+    <div class="card-body">
+        <h4 class="card-title">Promotion</h4>
+        @if (!Model.Any())
+        {
+            <a asp-area="Admin" asp-controller="Promotion" asp-action="Create" class="btn btn-success mt-5">Create</a>
+        }
+        <div class="table-responsive mt-5">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Image</th>
+                        <th>Options</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)    
+                    {
+                        <tr>
+                            <td>
+                                @item.Title
+                            </td>
+                            <td>
+                                @item.Description
+                            </td>
+                            <td>
+                                <img src="~/assets/images/home-03/@item.Img" style="width:100px; height:100px; border-radius:0;" />
+                            </td>
+                            <td>
+                                <a asp-action="Detail" asp-route-id="@item.Id" class="btn btn-primary">Detail</a>
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">Edit</a>
+                                <form asp-action="Delete" asp-route-id="@item.Id" method="post" class="d-inline">
+                                    <button type="submit" class="btn btn-danger">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+

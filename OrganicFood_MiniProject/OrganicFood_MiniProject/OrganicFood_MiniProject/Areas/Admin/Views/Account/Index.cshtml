@@ -1,0 +1,47 @@
+﻿@model IEnumerable<UserRolesDto>
+
+<div class="container">
+    <div class="card-body">
+        <h4 class="card-title">Roles</h4>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>FullName</th>
+                        <th>Email</th>
+                        <th>UserName</th>
+                        <th>Roles</th>
+                        <th>Options</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @item.FullName
+                            </td>
+                            <td>
+                                @item.Email
+                            </td>
+                            <td>
+                                @item.UserName
+                            </td>
+                            <td>
+                                @string.Join(",", item.Roles)
+                            </td>
+                            <td>
+                                @if (User.IsInRole("SuperAdmin"))
+                                {
+                                    <a asp-action="AddRoleToUser" asp-route-userId="@item.Id" class="btn btn-success">Add role</a>
+                                    <a asp-action="DeleteRole" asp-route-id="@item.Id" class="btn btn-danger">Remove role</a>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>

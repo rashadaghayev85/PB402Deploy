@@ -1,0 +1,35 @@
+﻿@model AdvertisementCreateVM
+
+<div class="container mt-5">
+    <div class="card-body">
+        <form class="forms-sample" method="post" asp-action="Create" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="exampleInputUsername1">Background Image</label>
+                <input type="file" class="form-control" id="exampleInputUsername1" asp-for="BackgroundImageUpload">
+                <span asp-validation-for="BackgroundImageUpload" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputUsername1">First Image</label>
+                <input type="file" class="form-control" id="exampleInputUsername1" asp-for="FirstImageUpload">
+                <span asp-validation-for="FirstImageUpload" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputUsername1">Second Image</label>
+                <input type="file" class="form-control" id="exampleInputUsername1" asp-for="SecondImageUpload">
+                <span asp-validation-for="SecondImageUpload" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputUsername1">Third Image</label>
+                <input type="file" class="form-control" id="exampleInputUsername1" asp-for="ThirdImageUpload">
+                <span asp-validation-for="ThirdImageUpload" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputUsername1">Fourth Image</label>
+                <input type="file" class="form-control" id="exampleInputUsername1" asp-for="FourthImageUpload">
+                <span asp-validation-for="FourthImageUpload" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary me-2">Submit</button>
+            <a asp-controller="Advertisement" asp-action="Index" class="btn btn-light">Cancel</a>
+        </form>
+    </div>
+</div>

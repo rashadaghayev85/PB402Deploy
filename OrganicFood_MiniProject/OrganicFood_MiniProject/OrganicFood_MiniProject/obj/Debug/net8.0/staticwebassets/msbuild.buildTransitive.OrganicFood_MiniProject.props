@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\OrganicFood_MiniProject.props" />
+</Project>

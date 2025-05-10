@@ -1,0 +1,36 @@
+﻿@model IEnumerable<BlogCategoryVM>
+
+<div class="container">
+    <div class="card-body">
+        <h4 class="card-title">Blog Category</h4>
+        <a asp-area="Admin" asp-controller="BlogCategory" asp-action="Create" class="btn btn-success">Create</a>
+
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Options</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                <p>@item.Name</p>
+                            </td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">Edit</a>
+                                <form asp-area="Admin" asp-controller="BlogCategory" asp-action="Delete" asp-route-id="@item.Id" method="post" class="d-inline">
+                                    <button type="submit" class="btn btn-danger">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>

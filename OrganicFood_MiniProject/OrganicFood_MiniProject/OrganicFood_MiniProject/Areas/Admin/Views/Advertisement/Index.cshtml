@@ -1,0 +1,57 @@
+﻿@model AdvertisementVM
+
+<div class="container">
+    <div class="card-body">
+        <h4 class="card-title">Advertisement</h4>
+        @if (Model == null)
+        {
+            <a asp-area="Admin" asp-controller="Advertisement" asp-action="Create" class="btn btn-success mt-5">Create</a>
+        }        
+
+        @if (Model != null)
+        {
+            <div class="table-responsive mt-5">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Background Image</th>
+                            <th>First Image</th>
+                            <th>Second Image</th>
+                            <th>Third Image</th>
+                            <th>Fourth Image</th>
+                            <th>Options</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="~/assets/images/home-03/@Model.BackgroundImage" style="width:200px; height:100px; border-radius:0;" />
+                            </td>
+                            <td>
+                                <img src="~/assets/images/home-03/@Model.FirstImage" style="width:100px; height:100px; border-radius:0;" />
+                            </td>
+                            <td>
+                                <img src="~/assets/images/home-03/@Model.SecondImage" style="width:100px; height:100px; border-radius:0;" />
+                            </td>
+                            <td>
+                                <img src="~/assets/images/home-03/@Model.ThirdImage" style="width:150px; height:100px; border-radius:0;" />
+                            </td>
+                            <td>
+                                <img src="~/assets/images/home-03/@Model.FourthImage" style="width:100px; height:100px; border-radius:0;" />
+                            </td>
+                            <td>
+                                <a asp-action="Detail" asp-route-id="@Model.Id" class="btn btn-primary">Detail</a>
+                                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary">Edit</a>
+                                <form asp-action="Delete" asp-route-id="@Model.Id" method="post" class="d-inline">
+                                    <button type="submit" class="btn btn-danger">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        }
+
+
+    </div>
+</div>

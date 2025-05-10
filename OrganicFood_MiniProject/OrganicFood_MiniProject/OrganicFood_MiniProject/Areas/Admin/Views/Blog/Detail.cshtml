@@ -1,0 +1,9 @@
+﻿@model BlogDetailVM
+
+<div class="container">
+    <h2>@Model.Title</h2>
+    <img src="~/assets/images/our-blog/@Model.Image" alt="@Model.Title" style="width:400px; height:400px;">
+    <p><strong>Category:</strong> @Model.CategoryName</p>
+    <p><strong>Date:</strong> @Model.CreatedDate.ToString("dd MMM yyyy")</p>
+    <p>@Model.Description</p>
+</div>

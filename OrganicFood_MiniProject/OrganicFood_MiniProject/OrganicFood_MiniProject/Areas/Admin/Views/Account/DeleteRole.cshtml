@@ -1,0 +1,19 @@
+﻿@model DeleteRoleDto
+
+<div class="container">
+    <h2>Remove Role from User</h2>
+
+    <form asp-action="DeleteRole" method="post">
+        <input type="hidden" asp-for="UserId" />
+
+        <div class="form-group">
+            <label for="RoleId">Select Role to Remove</label>
+            <select asp-for="RoleId" asp-items="Model.Roles" class="form-control">
+                <option value="">-- Select a Role --</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-danger">Remove Role</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

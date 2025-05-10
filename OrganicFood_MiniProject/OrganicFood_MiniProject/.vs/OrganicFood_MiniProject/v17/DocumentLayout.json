@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rashad\\OneDrive\\Desktop\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5ABEFEB7-95EA-4F41-8C79-11F305629F47}|OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj|c:\\users\\rashad\\onedrive\\desktop\\organicfood_miniproject\\organicfood_miniproject\\organicfood_miniproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5ABEFEB7-95EA-4F41-8C79-11F305629F47}|OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj|solutionrelative:organicfood_miniproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ABEFEB7-95EA-4F41-8C79-11F305629F47}|OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj|c:\\users\\rashad\\onedrive\\desktop\\organicfood_miniproject\\organicfood_miniproject\\organicfood_miniproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5ABEFEB7-95EA-4F41-8C79-11F305629F47}|OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj|solutionrelative:organicfood_miniproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ABEFEB7-95EA-4F41-8C79-11F305629F47}|OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj|c:\\users\\rashad\\onedrive\\desktop\\organicfood_miniproject\\organicfood_miniproject\\organicfood_miniproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ABEFEB7-95EA-4F41-8C79-11F305629F47}|OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj|solutionrelative:organicfood_miniproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\appsettings.json",
+              "RelativeDocumentMoniker": "OrganicFood_MiniProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\appsettings.json",
+              "RelativeToolTip": "OrganicFood_MiniProject\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-10T09:39:29.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "OrganicFood_MiniProject\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\appsettings.Development.json",
+              "RelativeToolTip": "OrganicFood_MiniProject\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-10T09:39:24.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "OrganicFood_MiniProject\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "OrganicFood_MiniProject\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T00:27:32.101Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

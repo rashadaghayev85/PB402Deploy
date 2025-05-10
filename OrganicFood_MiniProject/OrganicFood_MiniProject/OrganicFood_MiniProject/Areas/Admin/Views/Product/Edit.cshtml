@@ -1,0 +1,67 @@
+﻿@model ProductEditVM
+
+<div class="card-body">
+    <form class="forms-sample" method="post" asp-action="Edit" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input class="form-control" id="name" asp-for="Name">
+            <span asp-validation-for="Name" class="text-danger"></span>
+
+            <label for="price">Price</label>
+            <input class="form-control" id="price" asp-for="Price">
+            <span asp-validation-for="Price" class="text-danger"></span>
+
+            <label for="description">Description</label>
+            <input class="form-control" id="description" asp-for="Description">
+            <span asp-validation-for="Description" class="text-danger"></span>
+
+            <label for="category">Category</label>
+            <select class="form-control" id="category" asp-for="CategoryId" asp-items="Model.Categories">
+                <option value="">Select a category</option>
+            </select>
+            <span asp-validation-for="CategoryId" class="text-danger"></span>
+
+
+            <label for="discount">Discount</label>
+            <select class="form-control" id="discount" asp-for="DiscountIds" asp-items="Model.Discounts" multiple>
+            </select>
+            <span asp-validation-for="DiscountIds" class="text-danger"></span>
+            
+
+            <label for="mainImage">Main Image</label>
+            <input type="file" class="form-control" id="mainImage" asp-for="MainImage">
+            <span asp-validation-for="MainImage" class="text-danger"></span>
+
+            <label for="productImages">Other Images</label>
+            <input type="file" class="form-control" id="productImages" asp-for="ProductImages" multiple>
+            <span asp-validation-for="ProductImages" class="text-danger"></span>
+
+            @if (!string.IsNullOrEmpty(Model.ExistingMainImage))
+            {
+                <div class="mt-2">
+                    <p>Current Main Image:</p>
+                    <img src="~/assets/images/products/@Model.ExistingMainImage" alt="Main Image" class="img-thumbnail" width="100">
+                </div>
+            }
+
+            @if (Model.ExistingImage != null && Model.ExistingImage.Any())
+            {
+                <div class="mt-2">
+                    <p>Current Additional Images:</p>
+                    <div class="d-flex flex-wrap">
+                        @foreach (var image in Model.ExistingImage)
+                        {
+                            <div class="position-relative me-2">
+                                <img src="~/assets/images/products/@image" alt="Additional Image" class="img-thumbnail" width="100">
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+
+        </div>
+        <button type="submit" class="btn btn-primary me-2">Submit</button>
+        <a asp-area="Admin" asp-controller="Product" asp-action="Index" class="btn btn-light">Cancel</a>
+    </form>
+</div>
+

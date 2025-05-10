@@ -1,0 +1,40 @@
+﻿@model AdvertisementEditVM
+
+<div class="container mt-5">
+    <div class="card-body">
+        <form class="forms-sample" method="post" asp-action="Edit" asp-route-id="@Model.Id" enctype="multipart/form-data">
+            <div class="form-group">
+                <img src="~/assets/images/home-03/@Model.ExistingBackgroundImage" style="width:300px; height:150px;" />
+                <input class="form-control" id="exampleInputUsername1" asp-for="BackgroundImageUpload">
+                <span asp-validation-for="BackgroundImageUpload" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <img src="~/assets/images/home-03/@Model.ExistingFirstImage" style="width:250px; height:150px;" />
+                <input class="form-control" id="exampleInputUsername1" asp-for="FirstImageUpload">
+                <span asp-validation-for="FirstImageUpload" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <img src="~/assets/images/home-03/@Model.ExistingSecondImage" style="width:250px; height:150px;" />
+                <input class="form-control" id="exampleInputUsername1" asp-for="SecondImageUpload">
+                <span asp-validation-for="SecondImageUpload" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <img src="~/assets/images/home-03/@Model.ExistingThirdImage" style="width:250px; height:150px;" />
+                <input class="form-control" id="exampleInputUsername1" asp-for="ThirdImageUpload">
+                <span asp-validation-for="ThirdImageUpload" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <img src="~/assets/images/home-03/@Model.ExistingFourthImage" style="width:250px; height:150px;" />
+                <input class="form-control" id="exampleInputUsername1" asp-for="FourthImageUpload">
+                <span asp-validation-for="FourthImageUpload" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary me-2">Submit</button>
+            <a asp-controller="Advertisement" asp-action="Index" class="btn btn-light">Cancel</a>
+        </form>
+    </div>
+</div>

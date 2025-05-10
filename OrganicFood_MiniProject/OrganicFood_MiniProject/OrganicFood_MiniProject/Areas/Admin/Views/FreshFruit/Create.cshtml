@@ -1,0 +1,16 @@
+﻿@model FreshFruitCreateVM
+
+<form method="post" asp-area="Admin" asp-controller="FreshFruit" asp-action="Create" enctype="multipart/form-data">
+    <div class="form-group">
+        <label class="control-label">Title</label>
+        <input type="text" asp-for="Title" class="form-control" required />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputUsername1">Image</label>
+        <input class="form-control" id="exampleInputUsername1" asp-for="UploadImage">
+        <span asp-validation-for="UploadImage" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary me-2">Submit</button>
+    <a asp-controller="FreshFruit" asp-action="Index" class="btn btn-light">Cancel</a>
+</form>

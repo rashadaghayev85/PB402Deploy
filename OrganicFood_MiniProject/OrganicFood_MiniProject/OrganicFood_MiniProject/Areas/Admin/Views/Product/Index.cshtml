@@ -1,0 +1,54 @@
+﻿@model IEnumerable<ProductVM>
+
+<div class="container">
+    <div class="card-body">
+        <h4 class="card-title">Products</h4>
+        <a asp-area="Admin" asp-controller="Product" asp-action="Create" class="btn btn-success">Create</a>
+
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Description</th>                 
+                        <th>Category</th>                     
+                        <th>Options</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                <img src="~/assets/images/products/@(item.ProductImages.FirstOrDefault(m => m.IsMain)?.Name)" style="width:80px; height:80px; border-radius:0;" />
+                            </td>
+                            <td>
+                                @item.Name
+                            </td>
+                            <td>
+                                @item.Price
+                            </td>
+                            <td>
+                                @item.Description
+                            </td>
+                            <td>
+                                @item.CategoryName
+                            </td>
+                            
+                            <td>
+                                <a asp-action="Detail" asp-route-id="@item.Id" class="btn btn-primary">Detail</a>
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">Edit</a>
+                                <form asp-action="Delete" asp-route-id="@item.Id" method="post" class="d-inline">
+                                    <button type="submit" class="btn btn-danger">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>

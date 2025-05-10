@@ -1,0 +1,40 @@
+﻿@model SliderEditVM
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="CurrentImagePath" />
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="FirstTitle">First Title</label>
+        <input asp-for="FirstTitle" class="form-control" />
+        <span asp-validation-for="FirstTitle" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SecondTitle">Second Title</label>
+        <input asp-for="SecondTitle" class="form-control" />
+        <span asp-validation-for="SecondTitle" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description">Description</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="UploadImage">Upload New Image</label>
+        <input type="file" asp-for="UploadImage" class="form-control" accept="image/*" />
+        <span asp-validation-for="UploadImage" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Current Image:</label>
+        <img src="~/assets/images/home-03/@Model.CurrentImagePath" alt="Current Image" style="max-width:200px; height:auto;" />
+    </div>
+
+    <button type="submit" class="btn btn-primary me-2">Submit</button>
+    <a asp-controller="Slider" asp-action="Index" class="btn btn-light">Cancel</a>
+</form>

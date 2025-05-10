@@ -1,0 +1,18 @@
+﻿@model SettingEditVM
+
+<form asp-action="Edit" asp-route-id="@Model.Id">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="Key" />
+
+    <div class="form-group">
+        <span>@Model.Key</span> 
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Value"></label>
+        <input asp-for="Value" class="form-control" required />
+        <span asp-validation-for="Value" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
