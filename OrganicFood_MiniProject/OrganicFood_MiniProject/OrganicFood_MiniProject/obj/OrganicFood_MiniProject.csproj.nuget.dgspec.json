@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rashad\\OneDrive\\Desktop\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj": {}
+    "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rashad\\OneDrive\\Desktop\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj": {
+    "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rashad\\OneDrive\\Desktop\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj",
+        "projectUniqueName": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj",
         "projectName": "OrganicFood_MiniProject",
-        "projectPath": "C:\\Users\\Rashad\\OneDrive\\Desktop\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj",
+        "projectPath": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject.csproj",
         "packagesPath": "C:\\Users\\Rashad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rashad\\OneDrive\\Desktop\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\obj\\",
+        "outputPath": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB402Deploy\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\OrganicFood_MiniProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rashad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,6 +72,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
             }
           },
           "imports": [

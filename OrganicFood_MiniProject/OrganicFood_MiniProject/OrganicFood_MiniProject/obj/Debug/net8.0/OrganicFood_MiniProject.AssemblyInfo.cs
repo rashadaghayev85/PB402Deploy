@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrganicFood_MiniProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c07a567454426a864f0dc7b2bf669c8fe6901acf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+809324b20fd5c14705ed1b0552936b05ead541c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrganicFood_MiniProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrganicFood_MiniProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
